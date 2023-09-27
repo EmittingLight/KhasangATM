@@ -166,7 +166,7 @@ public class ATM {
             System.out.println("3. Снятие средств");
             System.out.println("4. Перевод между счетами");
             System.out.println("5. Блокировать счет");
-            System.out.println("7. Выход");
+            System.out.println("6. Выход");
 
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -247,7 +247,7 @@ public class ATM {
                     }
                     System.out.println("Счет заблокирован.");
                     return;
-                case 7:
+                case 6:
                     System.out.println("До свидания!");
                     exit = true;
                     return;
